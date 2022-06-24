@@ -9,8 +9,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText edit1, edit2;
-    TextView resultado;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,13 +19,15 @@ public class MainActivity extends AppCompatActivity {
         edit2 = findViewById(R.id.altura);
         resultado = findViewById(R.id.txtresultado);
     }
-    int n1, n2;
+
+    EditText edit1, edit2;
+    TextView resultado;
 
     public void Calcula(View view) {
-        n1 = Integer.parseInt(edit1.getText().toString());
-        n2 = Integer.parseInt(edit2.getText().toString());
+        int n1 = Integer.parseInt(edit1.getText().toString());
+        int n2 = Integer.parseInt(edit2.getText().toString());
 
-        int result = n1 + n2;
+        int result = n1/(n2*n1);
 
         resultado.setText(Integer.valueOf(result).toString());
     }
