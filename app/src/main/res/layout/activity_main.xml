@@ -52,13 +52,41 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="538dp" />
+        tools:layout_editor_absoluteY="665dp" />
+
+    <RadioButton
+        android:id="@+id/btnmasc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masculino"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="489dp" />
+
+    <RadioButton
+        android:id="@+id/btnfem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Feminino"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="450dp" />
 
     <Button
         android:id="@+id/btncalcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="Calcula"
         android:text="Calcular"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="443dp" />
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+    <TextView
+        android:id="@+id/txtper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gênero:"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="406dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
