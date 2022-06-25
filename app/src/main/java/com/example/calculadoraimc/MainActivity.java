@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     RadioButton fem,masc;
     double peso = 0.0;
     double altura = 0.0;
-    boolean sexo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         edit1 = findViewById(R.id.peso);
         edit2 = findViewById(R.id.altura);
-        resultado = findViewById(R.id.txtresultado);
-        resultadoNum = findViewById(R.id.txtresultado2);
+        resultado = findViewById(R.id.txtresultado2);
+        resultadoNum = findViewById(R.id.txtresultado);
         fem = findViewById(R.id.btnfem);
         masc = findViewById(R.id.btnmasc);
     }

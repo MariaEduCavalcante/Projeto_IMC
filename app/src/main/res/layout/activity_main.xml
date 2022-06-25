@@ -52,7 +52,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="665dp" />
+        tools:layout_editor_absoluteY="645dp" />
+
+    <TextView
+        android:id="@+id/txtresultado2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="686dp" />
 
     <RadioButton
         android:id="@+id/btnmasc"
@@ -88,5 +95,12 @@
         android:textSize="24sp"
         tools:layout_editor_absoluteX="164dp"
         tools:layout_editor_absoluteY="406dp" />
+
+    <RadioGroup
+        android:id="@+id/rgsexo"
+        android:layout_width="181dp"
+        android:layout_height="116dp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="443dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
